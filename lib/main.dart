@@ -11,6 +11,7 @@ class BMICalculator extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       //theme: ThemeData.dark(),  //pre-builtin
       theme: ThemeData.dark().copyWith(
         cardTheme: theme.cardTheme.copyWith(
