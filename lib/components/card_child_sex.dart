@@ -7,10 +7,10 @@ class CardChildWidgetSex extends StatelessWidget {
   // const CardChildWidgetSex({
   //   Key key,
   // }) : super(key: key);
-  CardChildWidgetSex({IconData this.iconSex, String this.genderSex});
+  CardChildWidgetSex({this.iconSex, this.genderSex});
 
-  final iconSex;
-  final genderSex;
+  final IconData iconSex;
+  final String genderSex;
 
   @override
   Widget build(BuildContext context) {
